@@ -1,8 +1,12 @@
-
+import Header from './components/Header';
+import HeroSection from './components/HeroSection';
+import Footer from './components/Footer';
 function App() {
   return (
     <div>
-      Hello React
+      <Header/>
+      <HeroSection/>
+      <Footer/>
     </div>
   );
 }
